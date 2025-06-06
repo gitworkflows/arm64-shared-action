@@ -1,6 +1,6 @@
 name: 'Arch Test'
 description: 'Run Debian arch-test on a container'
-author: 'Your Name or Org'
+author: 'GitWorkflows'
 inputs:
   args:
     description: 'Optional arguments to pass to arch-test'
