@@ -1,0 +1,13 @@
+name: 'Arch Test'
+description: 'Run Debian arch-test on a container'
+author: 'Your Name or Org'
+inputs:
+  args:
+    description: 'Optional arguments to pass to arch-test'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'cpu'
+  color: 'gray-dark'
